@@ -1,0 +1,28 @@
+.icons * {
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 15%;
+  border-color: rgb(233, 230, 230);
+  background-color: white;
+  border-style: solid;
+}
+
+.readOnly {
+  border: none;
+  width: 90%;
+  text-overflow: ellipsis;
+}
+
+.selected {
+  background: hsla(0, 12%, 95%, 0.733);
+}
+
+.selected input {
+  background: hsla(0, 12%, 95%, 0.733);
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}

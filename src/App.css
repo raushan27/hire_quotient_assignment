@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.delete {
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 15%;
+  border-style: solid;
+  background-color: #fc5373;
+  color: white;
+  border-color: white;
+}
+.search {
+  width: 40vw;
+  padding: 1vh 0 1vh 1vw;
+  margin-bottom: 1vh;
+  border-radius: 10px;
+  border: 1px solid rgb(233, 230, 230);
+}

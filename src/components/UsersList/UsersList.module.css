@@ -1,0 +1,30 @@
+.table {
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 80vh;
+  border-collapse: collapse;
+  border: 1px solid rgb(233, 230, 230);
+}
+
+.table tr {
+  border-bottom: 1px solid rgb(233, 230, 230);
+  text-align: left;
+  height: 10%;
+}
+
+.table th {
+  font-weight: bolder;
+  font-size: 1.2em;
+  padding: 10px 0 10px 5px;
+  color: grey;
+}
+
+.table tbody {
+  font-weight: 100;
+}
+
+.table td {
+  padding: 2px 0 4px 5px;
+  border-bottom: 1px solid rgb(233, 230, 230);
+}
